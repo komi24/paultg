@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic/js/angular/angular-resource.min.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <!-- <script type="text/javascript" src="CPresage.js"></script>     -->
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter" ng-controller="appCtrl">
+
+    <ion-pane>
+      <div class="bar bar-header" >
+        <h1 class="title" ng-click="quitter()">Quitter</h1>
+      </div>
+
+      <div class="bar bar-subheader">
+        <div class="item range" style="width:100%">
+          <i class="icon ion-volume-low" style="color:#fff"></i>
+          <input type="range" name="volume" min="0" max="100" ng-model="volume">
+          <i class="icon ion-volume-high" style="color:#fff"></i>
+        </div>
+      </div>
+
+      <ion-content class="has-header has-subheader app">
+<!--         <div id="deviceredy" class="blink">
+          <p class="event" id="listening">Connecting</p>
+          <p class="event" id="received">Ready</p>
+        </div>
+ -->        <div style="text-align:center; margin:4em">
+          <img height="50%" width="50%" src="img/appuye.png" ng-click="tagueule()"></img>
+        </div>
+        <div style="text-align:center; margin:4em">
+          <img height="50%" width="50%" src="img/pubinterne.jpg"></img>
+        </div>
+        <div style="text-align:center; margin:4em">
+          <img height="50%" width="50%" src="img/partager.png" ng-click="share()"></img>
+        </div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

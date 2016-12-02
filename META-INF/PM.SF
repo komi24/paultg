@@ -1,0 +1,77 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: JuyVKq94jyK6GhOSaZftFDgB0QE=
+Created-By: 1.6.0_23 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: It8/r8OGbGlo2XYjeFs2AEyGBhM=
+
+Name: res/anim/zoom_enter.xml
+SHA1-Digest: O9qQhvUwrT/d/fwNWPXsD0tsHSY=
+
+Name: assets/pubinterne.jpg
+SHA1-Digest: qgofYvfmsmtIkAMvEqf7CFwZ3hI=
+
+Name: res/anim/slide_v_enter_reverse.xml
+SHA1-Digest: Vq5wJ+sO+W+cBhoyk7WOTqqHfmQ=
+
+Name: res/anim/slide_exit.xml
+SHA1-Digest: HnEunihujgVw0wzrvnDxngowTFk=
+
+Name: res/drawable/ya.png
+SHA1-Digest: 4FYO2ZDDYXq6tjH4yUlNRBVhNdk=
+
+Name: res/anim/slide_v_exit_reverse.xml
+SHA1-Digest: 715qt7/kkpF4YumC7suOzZDAbkU=
+
+Name: res/anim/fadein.xml
+SHA1-Digest: VkxSa9bz0RyKouHU0H0c44bK0Y4=
+
+Name: assets/partager.png
+SHA1-Digest: rtNqnMztdGtD7jnbVlcYNOpxZzY=
+
+Name: res/anim/slide_enter_reverse.xml
+SHA1-Digest: fSzVlgX8uGt7oK3aUrtnv47AGv4=
+
+Name: res/anim/zoom_enter_reverse.xml
+SHA1-Digest: cxVHSC+wQ5c1WXQ+qSxlRBCp2f0=
+
+Name: resources.arsc
+SHA1-Digest: zOSj8khb81mVbQ82w3tLloy2lvM=
+
+Name: classes.dex
+SHA1-Digest: Wa2O2Rx0FBFSv3Gny2OBTH9rcIk=
+
+Name: res/anim/zoom_exit.xml
+SHA1-Digest: 2bnMo1/aWzls0MVVfvrMsDrvVsI=
+
+Name: assets/tagueule1.mp3
+SHA1-Digest: raPc69lcWLiQlcydjzFJ3M718Qc=
+
+Name: res/anim/slide_enter.xml
+SHA1-Digest: O2DDS6+qQkKPi+45TONnM0dRG2I=
+
+Name: AndroidManifest.xml
+SHA1-Digest: EVjGcdY7szd1HOkWlw7/oACMKaU=
+
+Name: res/anim/slide_exit_reverse.xml
+SHA1-Digest: jqrr6E83/erBLz9jC/e7E9gLCBA=
+
+Name: res/anim/slide_v_enter.xml
+SHA1-Digest: ftC7rksrHSKbFX+nBpm/MNTouDs=
+
+Name: res/anim/slide_v_exit.xml
+SHA1-Digest: 4LNFo91cnRqO09ZeYS7T4kS+IZw=
+
+Name: assets/appuye.png
+SHA1-Digest: R4XBk6TFupWrXdTeUHMD6D0pT6A=
+
+Name: assets/sorti.png
+SHA1-Digest: YRahIPnHdGjloy+y3nq/jiE6Q+U=
+
+Name: res/anim/fadeout.xml
+SHA1-Digest: A+miyZFlvZXsEKeGwkQDrhSlVHM=
+
+Name: res/anim/hold.xml
+SHA1-Digest: wAVTu+CQIHwYXrd+oF7hdN913UY=
+
+Name: res/anim/zoom_exit_reverse.xml
+SHA1-Digest: HalpWniWHM0Hw1wZcZgYM4WpRF4=
+

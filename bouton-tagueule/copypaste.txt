@@ -1,0 +1,52 @@
+var app = {
+    // Application Constructor
+    initialize: function() {
+        this.bindEvents();
+    },
+    // Bind Event Listeners
+    //
+    // Bind any events that are required on startup. Common events are:
+    // 'load', 'deviceready', 'offline', and 'online'.
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
+    // deviceready Event Handler
+    //
+    // The scope of 'this' is the event. In order to call the 'receivedEvent'
+    // function, we must explicitly call 'app.receivedEvent(...);'
+    onDeviceReady: function() {
+        app.receivedEvent('deviceready');
+        CPresage.adToServe(app.onAdEvent, app.onAdNotFound);
+    },
+    // Update DOM on a Received Event
+    receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
+
+        console.log('Received Event: ' + id);
+    },
+    onAdEvent: function(event) {
+        console.log('onAdEvent called here');
+        if(event == 'AdFound') {
+            console.log('AD FOUND');
+            // If you want to do specific stuff when an ad is about to be displayed, even just a log
+        } else if (event == 'AdClosed') {
+            console.log('AD CLOSED');
+            // If you want to do specific stuff when an ad is clicked or dismissed, even just a log
+        }
+        else if (event == 'AdError') {
+            console.log('AD ERROR');
+        }
+        else if (event == 'AdDisplayed') {
+            console.log('AD DISPLAYED');
+        }
+    },
+    onAdNotFound: function(error) {
+        console.log('AD NOT FOUND');
+        // If you want to do specific stuff when no ad to display, even just a log
+    }
+};

@@ -1,0 +1,75 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_23 (Sun Microsystems Inc.)
+
+Name: res/anim/zoom_enter.xml
+SHA1-Digest: GfLS4ohyPskUA41N/cWEygyLclQ=
+
+Name: assets/pubinterne.jpg
+SHA1-Digest: 7HExFGogx+95paUf45Q25qsuheI=
+
+Name: res/anim/slide_v_enter_reverse.xml
+SHA1-Digest: JqBxnhzQcHdJycq0/DBeRl4BLtk=
+
+Name: res/anim/slide_exit.xml
+SHA1-Digest: TTBUIKVTE6qyb4tAjF0ZlI/1p6A=
+
+Name: res/drawable/ya.png
+SHA1-Digest: GPjDEuo29Flr9p2tfHL+3KfAb0Q=
+
+Name: res/anim/slide_v_exit_reverse.xml
+SHA1-Digest: URIV3xuCqTXj/smklFO2wFQCQvk=
+
+Name: res/anim/fadein.xml
+SHA1-Digest: 4ko5LspZlp+jj5tfaZg1+LMZEEw=
+
+Name: assets/partager.png
+SHA1-Digest: SBOhGjeXeUkoeJP/oaxJ2uUNO10=
+
+Name: res/anim/slide_enter_reverse.xml
+SHA1-Digest: 7NW3ii21B5n/o+tN/AK9upKW4/k=
+
+Name: res/anim/zoom_enter_reverse.xml
+SHA1-Digest: q8cMX5xxPg57dWPF9YH1CMzujcQ=
+
+Name: resources.arsc
+SHA1-Digest: /tmjEIWOoYY7m/183DzAksh70EU=
+
+Name: classes.dex
+SHA1-Digest: ayG+Ww/2uGJsDo21aPhPhAjTWG8=
+
+Name: res/anim/zoom_exit.xml
+SHA1-Digest: lILTFksTy8QcYGRcPR9KMU32eb8=
+
+Name: assets/tagueule1.mp3
+SHA1-Digest: WdBtBBbug0EOpb4f5uGNod7UsX0=
+
+Name: res/anim/slide_enter.xml
+SHA1-Digest: JPYxQapDiZEkvdwMAsZbDuiWYnE=
+
+Name: AndroidManifest.xml
+SHA1-Digest: bo43sg6mS2g7hhhBFI+ZVWTEqns=
+
+Name: res/anim/slide_exit_reverse.xml
+SHA1-Digest: 8qHlxHtiyIVk+f8oJZcK3h3yBFo=
+
+Name: res/anim/slide_v_exit.xml
+SHA1-Digest: xtQFTqF/9Hm21j5MlFBvC3xTplE=
+
+Name: res/anim/slide_v_enter.xml
+SHA1-Digest: Of4mmoWlsTo41gdiNuwQcfde5VY=
+
+Name: assets/appuye.png
+SHA1-Digest: GB0NuuJzrpKbZfwgwR13tJ5DRlM=
+
+Name: assets/sorti.png
+SHA1-Digest: nEOjwLnlARuaPMc6lnp55aHq0NM=
+
+Name: res/anim/fadeout.xml
+SHA1-Digest: GFVyqLEuRpUqF/MVXBLUtVFpUUk=
+
+Name: res/anim/hold.xml
+SHA1-Digest: qi3aIm3GerGOXaRXYpI6HOE0wEc=
+
+Name: res/anim/zoom_exit_reverse.xml
+SHA1-Digest: /1VKOCBm6eQlFuEhiLxDCQxx2cw=
+

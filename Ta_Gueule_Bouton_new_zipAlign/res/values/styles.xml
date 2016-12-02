@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Amerkashi" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowTitleStyle">@style/CustomWindowTitle</item>
+    </style>
+    <style name="CustomWindowTitle">
+        <item name="android:textAppearance">@style/CustomWindowTitleText</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">10.0</item>
+        <item name="android:shadowDy">20.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="CustomWindowTitleText" parent="@android:style/TextAppearance.WindowTitle">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#ff5599ff</item>
+    </style>
+</resources>

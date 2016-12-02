@@ -1,0 +1,19 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Ta_Gueule_Bouton_new_zipAlign.apk
+compressionType: false
+doNotCompress: null
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo: null
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '7'
+  versionName: '7.0'
